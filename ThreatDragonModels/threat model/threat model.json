@@ -33,7 +33,7 @@
                   "title": "Generic spoofing threat",
                   "type": "Spoofing",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "description": "A generic spoofing threat",
                   "mitigation": "Two factor authentication, protect card, change pin regulary"
                 },
@@ -58,7 +58,7 @@
                   "title": "Generic DoS threat",
                   "type": "Denial of service",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "description": "A generic DoS threat"
                 }
               ],
@@ -87,17 +87,32 @@
               "angle": 0,
               "id": "06d255de-1f8a-4a90-a387-986aeb57886c",
               "z": 2,
-              "hasOpenThreats": false,
-              "threats": [],
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "title": "Spoofing threat",
+                  "description": "Some other user can access someone else's account"
+                },
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "title": "Denial of service",
+                  "description": "Machine can be used to make systems unavailable"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "ATM machine1"
+                  "text": "ATM machine"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
@@ -121,7 +136,7 @@
                   "title": "Generic tampering threat",
                   "type": "Tampering",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "description": "A generic tampering threat"
                 },
                 {
@@ -129,7 +144,7 @@
                   "title": "Generic informtion disclosure threat",
                   "type": "Information disclosure",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "description": "A generic information disclosure threat"
                 }
               ],
@@ -155,10 +170,6 @@
                 "id": "b3f65a61-16f1-40ff-9936-55ad3866832e"
               },
               "vertices": [
-                {
-                  "x": 308,
-                  "y": 61
-                },
                 {
                   "x": 346,
                   "y": 93
@@ -297,7 +308,7 @@
                   "title": "Generic tampering threat",
                   "type": "Tampering",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "description": "A generic tampering threat"
                 },
                 {
@@ -380,7 +391,7 @@
                   "title": "Generic tampering threat",
                   "type": "Tampering",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "description": "A generic tampering threat"
                 },
                 {
@@ -388,7 +399,7 @@
                   "title": "Generic informtion disclosure threat",
                   "type": "Information disclosure",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "description": "A generic information disclosure threat"
                 }
               ],
@@ -503,7 +514,7 @@
                   "title": "Generic spoofing threat",
                   "type": "Spoofing",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "description": "A generic spoofing threat"
                 },
                 {
@@ -519,7 +530,7 @@
                   "title": "Generic repudiation threat",
                   "type": "Repudiation",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "Low",
                   "description": "A generic repudiation threat"
                 },
                 {
@@ -527,7 +538,7 @@
                   "title": "Generic elevation threat",
                   "type": "Elevation of privilege",
                   "status": "Open",
-                  "severity": "Medium",
+                  "severity": "High",
                   "description": "A generic elevation threat"
                 },
                 {
@@ -786,8 +797,8 @@
               },
               "vertices": [
                 {
-                  "x": 370,
-                  "y": 149
+                  "x": 294,
+                  "y": 126
                 }
               ],
               "id": "85b8d376-cdd1-4044-8eba-ab64cbb89164",
