@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "title": "threat model",
+    "owner": "Me",
+    "description": "Threat model"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "threat model",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
